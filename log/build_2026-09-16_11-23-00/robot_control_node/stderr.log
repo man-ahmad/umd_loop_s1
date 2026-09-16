@@ -1,0 +1,5 @@
+  File "/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node/control.py", line 19
+    self.waypoints.append((random.uniform(-10.0, 10.0), random.uniform(-10.0, 10.0))
+                         ^
+SyntaxError: '(' was never closed
+

@@ -1,0 +1,2 @@
+[console_scripts]
+vehicle_controller = robot_control_node.control:main

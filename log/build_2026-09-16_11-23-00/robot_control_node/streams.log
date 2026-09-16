@@ -1,0 +1,30 @@
+[1.140s] Invoking command in '/home/manahmad/umd_loop_s1/src/robot_control_node': PYTHONPATH=/home/manahmad/umd_loop_s1/build/robot_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control_node build --build-base /home/manahmad/umd_loop_s1/build/robot_control_node/build install --record /home/manahmad/umd_loop_s1/build/robot_control_node/install.log --install-scripts $base/lib/robot_control_node --single-version-externally-managed install_data
+[1.512s] running egg_info
+[1.538s] writing ../../build/robot_control_node/robot_control_node.egg-info/PKG-INFO
+[1.538s] writing dependency_links to ../../build/robot_control_node/robot_control_node.egg-info/dependency_links.txt
+[1.539s] writing entry points to ../../build/robot_control_node/robot_control_node.egg-info/entry_points.txt
+[1.539s] writing requirements to ../../build/robot_control_node/robot_control_node.egg-info/requires.txt
+[1.539s] writing top-level names to ../../build/robot_control_node/robot_control_node.egg-info/top_level.txt
+[1.594s] reading manifest file '../../build/robot_control_node/robot_control_node.egg-info/SOURCES.txt'
+[1.598s] adding license file 'LICENSE'
+[1.598s] writing manifest file '../../build/robot_control_node/robot_control_node.egg-info/SOURCES.txt'
+[1.598s] running build
+[1.598s] running build_py
+[1.598s] copying robot_control_node/control.py -> /home/manahmad/umd_loop_s1/build/robot_control_node/build/lib/robot_control_node
+[1.598s] running install
+[1.604s] running install_lib
+[1.632s] copying /home/manahmad/umd_loop_s1/build/robot_control_node/build/lib/robot_control_node/control.py -> /home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node
+[1.633s] byte-compiling /home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node/control.py to control.cpython-312.pyc
+[1.634s]   File "/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node/control.py", line 19
+[1.634s]     self.waypoints.append((random.uniform(-10.0, 10.0), random.uniform(-10.0, 10.0))
+[1.634s]                          ^
+[1.634s] SyntaxError: '(' was never closed
+[1.634s] 
+[1.634s] running install_data
+[1.635s] running install_egg_info
+[1.664s] removing '/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node-0.0.0-py3.12.egg-info' (and everything under it)
+[1.664s] Copying ../../build/robot_control_node/robot_control_node.egg-info to /home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node-0.0.0-py3.12.egg-info
+[1.668s] running install_scripts
+[1.868s] Installing vehicle_controller script to /home/manahmad/umd_loop_s1/install/robot_control_node/lib/robot_control_node
+[1.868s] writing list of installed files to '/home/manahmad/umd_loop_s1/build/robot_control_node/install.log'
+[1.905s] Invoked command in '/home/manahmad/umd_loop_s1/src/robot_control_node' returned '0': PYTHONPATH=/home/manahmad/umd_loop_s1/build/robot_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control_node build --build-base /home/manahmad/umd_loop_s1/build/robot_control_node/build install --record /home/manahmad/umd_loop_s1/build/robot_control_node/install.log --install-scripts $base/lib/robot_control_node --single-version-externally-managed install_data

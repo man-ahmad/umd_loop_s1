@@ -1,0 +1,5 @@
+  File "/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node/control.py", line 50
+    if self.bot_ranges not None:
+                           ^^^^
+SyntaxError: invalid syntax
+

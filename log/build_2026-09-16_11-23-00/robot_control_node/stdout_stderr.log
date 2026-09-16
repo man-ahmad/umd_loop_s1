@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/robot_control_node/robot_control_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_control_node/robot_control_node.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_control_node/robot_control_node.egg-info/entry_points.txt
+writing requirements to ../../build/robot_control_node/robot_control_node.egg-info/requires.txt
+writing top-level names to ../../build/robot_control_node/robot_control_node.egg-info/top_level.txt
+reading manifest file '../../build/robot_control_node/robot_control_node.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot_control_node/robot_control_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_control_node/control.py -> /home/manahmad/umd_loop_s1/build/robot_control_node/build/lib/robot_control_node
+running install
+running install_lib
+copying /home/manahmad/umd_loop_s1/build/robot_control_node/build/lib/robot_control_node/control.py -> /home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node
+byte-compiling /home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node/control.py to control.cpython-312.pyc
+  File "/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node/control.py", line 19
+    self.waypoints.append((random.uniform(-10.0, 10.0), random.uniform(-10.0, 10.0))
+                         ^
+SyntaxError: '(' was never closed
+
+running install_data
+running install_egg_info
+removing '/home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robot_control_node/robot_control_node.egg-info to /home/manahmad/umd_loop_s1/install/robot_control_node/lib/python3.12/site-packages/robot_control_node-0.0.0-py3.12.egg-info
+running install_scripts
+Installing vehicle_controller script to /home/manahmad/umd_loop_s1/install/robot_control_node/lib/robot_control_node
+writing list of installed files to '/home/manahmad/umd_loop_s1/build/robot_control_node/install.log'
