@@ -9,6 +9,7 @@ setup.py
 ../../build/robot_control_node/robot_control_node.egg-info/requires.txt
 ../../build/robot_control_node/robot_control_node.egg-info/top_level.txt
 ../../build/robot_control_node/robot_control_node.egg-info/zip-safe
+launch/umd_loop.launch.py
 resource/robot_control_node
 robot_control_node/__init__.py
 robot_control_node/control.py
